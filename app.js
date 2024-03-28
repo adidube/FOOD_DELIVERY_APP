@@ -36,8 +36,6 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   db.sequelize.sync().then(() => {
       console.log("database connected sussefully");
-     }).catch(err=>response.json(400).json({
-      status:"Getting database error"
-     }));
+     }).catch(err=>console.log("Database error occured"));
     
 })
