@@ -1,0 +1,13 @@
+const express = require('express');
+
+const {validateRequest}= require('./../middleware/validationMiddleware');
+const {priceCalculateController}=require("./../controller/priceController")
+
+const router = express.Router();
+
+
+
+router.route('/calculate-price').post(validateRequest,priceCalculateController);
+
+
+module.exports=router;
