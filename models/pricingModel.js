@@ -1,4 +1,3 @@
-// models/pricing.js
 
 module.exports = (sequelize, Sequelize) => {
     const Pricing = sequelize.define('pricing', {

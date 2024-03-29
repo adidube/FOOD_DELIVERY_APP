@@ -1,5 +1,3 @@
-// models/item.js
-
 module.exports = (sequelize, Sequelize) => {
     const Item = sequelize.define('item', {
       type: {

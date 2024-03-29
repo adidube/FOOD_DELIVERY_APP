@@ -1,4 +1,3 @@
-// middlewares/validationMiddleware.js
 
 exports.validateRequest=(req, res, next)=>{
     const { zone, organization_id, total_distance, item_type } = req.body;
@@ -8,5 +7,5 @@ exports.validateRequest=(req, res, next)=>{
     next();
   }
   
-//  module.exports={validateRequest}
+
   

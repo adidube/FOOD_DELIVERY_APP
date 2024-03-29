@@ -1,5 +1,3 @@
-// models/organization.js
-
 module.exports = (sequelize, Sequelize) => {
     const Organization = sequelize.define('organization', {
       id: {

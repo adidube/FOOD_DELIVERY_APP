@@ -1,5 +1,3 @@
-// services/pricingService.js
-
 const  Pricing = require('./../models/pricingModel');
 const Organization= require('./../models/organizationModel');
 const Item = require('./../models/item');

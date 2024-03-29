@@ -1,4 +1,3 @@
-// models/index.js
 
 const Sequelize = require('sequelize');
 const dbConfig = require('./config/database');
