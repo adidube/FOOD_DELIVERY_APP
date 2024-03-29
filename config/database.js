@@ -1,3 +1,7 @@
+const dotenv = require('dotenv');
+
+dotenv.config({ path: './../config.env' });
+
 module.exports = {
     production: {
       username: process.env.DB_USERNAME,
